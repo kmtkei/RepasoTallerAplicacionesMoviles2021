@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TienditadeCafe</string>
+    <string name="Titulo">Coffee Shop</string>
+    <string name="Descripcion">Description</string>
+    <string name="BtnVolver">Return</string>
+    <string name="BtnMostrar">Show</string>
+    <string name="BtnInsertar">Insert</string>
+    <string name="BtnCerrar">Close</string>
+    <string name="cafe">Cafe</string>
+    <string name="h_nombre">Insert name</string>
+    <string name="mensaje_mostrar">Showing a new Activity</string>
+</resources>

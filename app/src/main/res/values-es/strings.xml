@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TienditadeCafe</string>
+    <string name="Titulo">Cafeteria</string>
+    <string name="Descripcion">Descripcion</string>
+    <string name="BtnVolver">Volver</string>
+    <string name="BtnMostrar">Mostrar</string>
+    <string name="BtnInsertar">Insertar</string>
+    <string name="BtnCerrar">Cerrar</string>
+    <string name="h_nombre">Ingrese Nombre</string>
+    <string name="cafe">Cafe</string>
+    <string name="mensaje_mostrar">Mostrando un Nuevo Activity</string>
+</resources>
