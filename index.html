@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.87.0">
+    <title>Product example · Bootstrap v5.1</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/product/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.1/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.1/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.1/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+<link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#7952b3">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      .fondo:before {  
+  content:'';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.4);
+}
+.texto-feature{
+z-index: 1;
+}
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="css/producto.css" rel="stylesheet">
+  
+  </head>
+  <body>
+    
+<header class="site-header sticky-top py-1">
+  <nav class="container d-flex flex-column flex-md-row justify-content-between">
+    <a class="py-2" href="#" aria-label="Product">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+    </a>
+      <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        <a class="nav-link" href="#caracteristicas">Caracteristicas</a>
+        <a class="nav-link" href="#">Contacto</a>
+  </nav>
+</header>
+
+<main>
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light ">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="display-4 fw-normal">SGB</h1>
+      <p class="lead fw-normal">Descripción.</p>
+      <a href="#">
+
+      <img  width="40%"" src="img/google.png" >
+
+      </a>
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  </div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold">Conoce más sobre SGB</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Ver Presentación</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Manual de Usuario</button>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="img/ejemplo.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+  </div>
+
+  <h1 id="caracteristicas" class="display-4 fw-bold text-center ">Características</h1>
+
+  <div class="row row-cols-1 row-cols-lg-3 p-3 p-md-5 m-md-3 text-center border-bottom">
+    <div class="col">
+      <div class=" fondo card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('img/almacenamiento.jpg');   background-size: cover;">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 texto-feature ">
+          <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Organiza tus productos</h2>
+          <ul class="d-flex list-unstyled mt-auto">
+            <li class="me-auto">
+              <!--<img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">-->
+            </li>
+            <li class="d-flex align-items-center me-3">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+              <small></small>
+            </li>
+            <li class="d-flex align-items-center">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+              <small>ver mas</small>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="fondo card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('img/inventario.PNG');   background-size: cover;">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 texto-feature">
+          <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Actualiza tu Inventario</h2>
+          <ul class="d-flex list-unstyled mt-auto">
+            <li class="me-auto">
+              <!--<img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">-->
+            </li>
+            <li class="d-flex align-items-center me-3">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+              <small></small>
+            </li>
+            <li class="d-flex align-items-center">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+              <small>ver mas</small>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="fondo card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('img/administracion.jpg');   background-size: cover;">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1 texto-feature ">
+          <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Monitorea estados</h2>
+          <ul class="d-flex list-unstyled mt-auto">
+            <li class="me-auto">
+              <!--<img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">-->
+            </li>
+            <li class="d-flex align-items-center me-3">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+              <small></small>
+            </li>
+            <li class="d-flex align-items-center">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+              <small>ver mas</small>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="row px-4 pt-5 my-5 flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="px-4 pt-5 my-5col-8 col-sm-8 col-lg-6 text-center">
+        <img src="img/soporte.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="600" height="400" loading="lazy">
+      </div>
+      <div class="col-lg-5">
+        <h1 class="display-5 fw-bold lh-1 mb-3">Soporte de Implementación</h1>
+        <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+      </div>
+    </div>
+
+
+  <h1 class="display-4 fw-bold text-center ">Herramientas</h1>
+
+      <div class="row row-cols-1 row-cols-lg-3 p-3 p-md-5 m-md-3 text-center border-bottom">
+        <div class="col d-flex align-items-start">
+
+          <div>
+             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-box-seam" viewBox="0 0 16 16">
+  <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/>
+</svg> <h4 class="fw-bold mb-0">Artículos y almacén</h4>
+            <p>Base de datos de artículos y/o servicios. Minucioso control del almacén e inventario.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+  <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+</svg>
+            <h4 class="fw-bold mb-0">Clientes y proveedores</h4>
+            <p>Base de datos completa y con cientos de filtros a tu disposición.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-bar-chart" viewBox="0 0 16 16">
+  <path d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5v12h-2V2h2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z"/>
+</svg>
+            <h4 class="fw-bold mb-0">Informes</h4>
+            <p>Información sobre tu negocio en tiempo real y en segundos. Toma mejores decisiones estratégicas.</p>
+          </div>
+        </div>
+</div>
+
+</main>
+
+<footer class="container py-5 text-center ">
+  <div class="row">
+    <div class="col-12 col-md">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>SGB</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+      <small class="d-block mb-3 text-muted">&copy; 2021–2021</small>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Recursos</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="#">Descargar Presentación</a></li>
+        <li><a class="link-secondary" href="#">Manual de Usuario</a></li>
+        <li><a class="link-secondary" href="#">...</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Sobre Mi</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="#">Portafolio</a></li>
+        <li><a class="link-secondary" href="#">mail@mail.cl</a></li>
+        <li><a class="link-secondary" href="#">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
